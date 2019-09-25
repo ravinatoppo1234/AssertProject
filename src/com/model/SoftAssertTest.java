@@ -21,6 +21,7 @@ public class SoftAssertTest {
   @Test(priority=2)
 	 public void Test1()
 	 {
+		 System.out.println("-----Github------");
 	  SoftAssert softassert1=new SoftAssert();
 	  System.out.println("5");
 	  softassert1.assertEquals(true, true);
