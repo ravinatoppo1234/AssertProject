@@ -22,6 +22,7 @@ public class SoftAssertTest {
 	 public void Test1()
 	 {
 		 System.out.println("-----Github------");
+		 System.out.println("-----eclipse to github------");
 	  SoftAssert softassert1=new SoftAssert();
 	  System.out.println("5");
 	  softassert1.assertEquals(true, true);
